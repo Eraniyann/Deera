@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Deepika🤍</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Music Play Button -->
+<div id="musicBtn" class="music-btn">💖 Tap here for a Music 💖</div>
+
+<audio id="bgm">
+    <source src="your-audio.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    const btn = document.getElementById("musicBtn");
+    const music = document.getElementById("bgm");
+
+    btn.addEventListener("click", () => {
+        music.currentTime = 115;  // start at 1:53
+        music.play();
+        btn.style.display = "none";  // hide button after playing
+    });
+</script>
+
+    <!-- Floating hearts -->
+    <div class="hearts"></div>
+
+    <section class="container">
+        <h1 class="hername">Happy Birthday <span style="color: aliceblue;">Deepika</span>🤍</h1>
+        <p class="quote-main">"On this special day, the world became more beautiful because you were born."</p>
+
+        <img src="main.jpg" class="photo" alt="Deepika">
+
+        <p class="mid-quotes">
+             Every smile of yours is my sunshine<br>
+             Every word of yours is my peace<br>
+             Every dream of yours is my purpose<br>
+             And every moment with you is my favourite memory ❤️
+        </p>
+
+        <img src="memory.jpg" class="photo memory" alt="Our Memory">
+
+        <p class="poetry">
+            "I never believed in magic until I met you,<br>
+            I never felt home until your hands held mine,<br>
+            I never knew love until your eyes told my heart,<br>
+            'You're found… stay forever.'"
+        </p>
+
+        <p class="final-shock">
+           My love begins with you and ends with you Thangoww🪶❤️‍🩹🙇‍♂️ 
+        </p>
+    </section>
+
+    <script src="animation.js"></script>
+</body>
+</html>
