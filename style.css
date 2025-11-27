@@ -3,7 +3,7 @@
 body {
     margin: 0;
     background: #000000;
-    font-family:  "Segoe Script";
+    font-family:  'Dancing Script', cursive;";
     overflow-x: hidden;
 }
 
@@ -107,3 +107,4 @@ body {
     50% { transform: translateX(-50%) scale(1.1); }
     100% { transform: translateX(-50%) scale(1); }
 }
+
